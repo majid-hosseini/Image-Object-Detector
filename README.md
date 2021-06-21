@@ -1,6 +1,13 @@
 # Image Object Detector
 This project is about object detection, one of the areas of computer vision that is substantially advanced over the last couple of years.
 
+
+## Sample ouput
+Following is a sample output of this project showing two detected zebras along with the class label and confidence. A table will also be printed listing all identified objects and their probabilities.
+
+![Sample-output](https://github.com/majid-hosseini/Image-Object-Detector/blob/main/images/zebra_processed.JPG?raw=true)
+
+
 ## Object Detection Task
 
 The object detection task is based on following two prerequisite stages:
@@ -29,14 +36,7 @@ This project is a collection of developed utility functions to facilitate usage 
 * filter out low confident bounding boxes (<=user defined class_threshold)
 * apply non max suppression based on user defined NMS_threshold
 * stretch back the bounding boxes into the shape of the original image
-* draw a box around the detected objects along with the class label and confidence 
-
-## Sample ouput
-Following is a sample output of this project showing two detected zebras along with the class label and confidence. A table will also be printed listing all identified objects and their probabilities.
-
-![Sample-output](https://github.com/majid-hosseini/Image-Object-Detector/blob/main/images/zebra_processed.JPG?raw=true)
-
- 
+* draw a box around the detected objects along with the class label and confidence  
 
 
 # Requirement
